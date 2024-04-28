@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.CHECK
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "workbench-batch",
+            "request": "launch",
+            "name": "ALJODB2Y",
+            "hciConnectionName": "CWCC",
+            "jclDatasetMember": "HUK0320.DEMO.JCL(ALJOJCLY)",
+            "jobName": "HUK0320X",
+            "steps": 
+             [
+                {
+                  "step": "RUNDB2X",
+                  "program": "ALJODB2X",
+                  "DB2": true,
+                  "IMS": false
+                
+                }
+             ]
+           }
+    ]
+}
